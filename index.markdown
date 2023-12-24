@@ -5,12 +5,12 @@
 # layout: page
 # title : Welcome!
 ---
-These are some of the projects that I have worked on in the past.
+<h2 style="text-align: center;">These are some of the projects that I have worked on in the past.</h2><br><br>
 
 <table>
     <tr>
         <td>
-            <img src="assets/images/dsa.webp" alt="drawing" width="168"  height="100"/>
+            <img src="assets/images/dsa.png" alt="drawing" width="200"/>
         </td>
         <td>
             <strong>Data Structures and Algorithms</strong>
@@ -37,7 +37,7 @@ These are some of the projects that I have worked on in the past.
     </tr>
     <tr>
         <td>
-            <img src="assets/images/comp-decomp.webp" alt="drawing" width="168"  height="100"/>
+            <img src="assets/images/comp-decomp.png" alt="drawing" width="200"/>
         </td>
         <td>
             <strong>Compression and Decompression Program</strong>
@@ -64,7 +64,7 @@ These are some of the projects that I have worked on in the past.
     </tr>
     <tr>
         <td>
-            <img src="assets/images/tic-tac-toe.webp" alt="drawing" width="168"  height="100"/>
+            <img src="assets/images/tic-tac-toe.png" alt="drawing" width="200"/>
         </td>
         <td>
             <strong>Tic Tac Toe with Minimax Algorithm</strong>
@@ -91,7 +91,7 @@ These are some of the projects that I have worked on in the past.
     </tr>
     <tr>
         <td>
-            <img src="assets/images/uno.png" alt="drawing" width="168"  height="100"/>
+            <img src="assets/images/uno.png" alt="drawing" width="200"/>
         </td>
         <td>
             <strong>Uno Game Simulator</strong>
@@ -118,7 +118,7 @@ These are some of the projects that I have worked on in the past.
     </tr>
     <tr>
         <td>
-            <img src="assets/images/cs.png" alt="drawing" width="168"  height="100"/>
+            <img src="assets/images/cs.png" alt="drawing" width="200"/>
         </td>
         <td>
             <strong>CS Program Classes Prerequisites Website</strong>
