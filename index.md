@@ -4,16 +4,33 @@
 
 # layout: page
 # title : Welcome!
+
 ---
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+</head>
+
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
 <h2 style="text-align: center;">These are some of the projects that I have worked on in the past.</h2><br><br>
 
+<div style="display: flex; justify-content: center;">
 <table>
+    <!-- <tr><td><br></td><td><br></td><td><br></td></tr> -->
     <tr>
         <td>
-            <img src="assets/images/dsa.png" alt="drawing" width="200"/>
+            <img class="images" id="myImg1" src="assets/images/dsa.png"/>
         </td>
         <td>
-            <strong>Data Structures and Algorithms</strong>
+            <strong><a href="assets/subpages/dsa.html">Data Structures and Algorithms</a></strong>
         </td>
         <td>
             <table>
@@ -29,15 +46,16 @@
                 </tr>
                 <tr>
                     <td>
-                        Github: <a href="https://github.com/elordeiro/DataStructures_C">DataStructures_C</a>
+                        {{site.github_icon }}Github: <a href="https://github.com/elordeiro/DataStructures_C">DataStructures_C</a>
                     </td>
                 </tr>
             </table>
         </td>
     </tr>
+    <!-- <tr><td><br><br></td><td><br><br></td><td><br><br></td></tr> -->
     <tr>
         <td>
-            <img src="assets/images/comp-decomp.png" alt="drawing" width="200"/>
+            <img class="images" id="myImg2" src="assets/images/comp-decomp.png"/>
         </td>
         <td>
             <strong>Compression and Decompression Program</strong>
@@ -51,7 +69,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <b>Skilll Showcase:</b> Demonstrating practical application of data structures.
+                        <b>Skilll Showcase:</b> Practical application of data structures.
                     </td>
                 </tr>
                 <tr>
@@ -62,12 +80,13 @@
             </table>
         </td>
     </tr>
+    <!-- <tr><td><br><br></td><td><br><br></td><td><br><br></td></tr> -->
     <tr>
         <td>
-            <img src="assets/images/tic-tac-toe.png" alt="drawing" width="200"/>
+            <img class="images" id="myImg3" src="assets/images/tic-tac-toe.png"/>
         </td>
         <td>
-            <strong>Tic Tac Toe with Minimax Algorithm</strong>
+            <strong><a href="assets/subpages/ttt.html">Tic Tac Toe with Minimax Algorithm</a></strong>
         </td>
         <td>
             <table>
@@ -89,12 +108,13 @@
             </table>
         </td>
     </tr>
+    <!-- <tr><td><br><br></td><td><br><br></td><td><br><br></td></tr> -->
     <tr>
         <td>
-            <img src="assets/images/uno.png" alt="drawing" width="200"/>
+            <img class="images" id="myImg4" src="assets/images/uno.png"/>
         </td>
         <td>
-            <strong>Uno Game Simulator</strong>
+            <strong><a href="assets/subpages/uno.html">Uno Game Simulator</a></strong>
         </td>
         <td>
             <table>
@@ -116,12 +136,13 @@
             </table>
         </td>
     </tr>
+    <!-- <tr><td><br><br></td><td><br><br></td><td><br><br></td></tr> -->
     <tr>
         <td>
-            <img src="assets/images/cs.png" alt="drawing" width="200"/>
+            <img class="images" id="myImg5" src="assets/images/cs.png"/>
         </td>
         <td>
-            <strong>CS Program Classes Prerequisites Website</strong>
+            <strong><a href="https://umbcs.github.io/UMassCSPreReqChart/CSChart_unified.html">CS Program Classes Prerequisites Website</a></strong>
         </td>
         <td>
             <table>
@@ -144,3 +165,47 @@
         </td>
     </tr>
 </table>
+</div>
+
+<script>
+    document.getElementsByClassName("credits right")[0].innerText = "Hosted on GitHub Pages";
+    // const fork = document.getElementsByClassName("fork")[0];
+    // fork.parentNode.removeChild(fork);
+
+
+    function isMobileDevice() {
+        return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+    };
+    // Get the modal
+    var modal = document.getElementById("myModal");
+    modal.style.display = "none";
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    for (let i = 0; i < 5; i++) {
+        var img = document.getElementById("myImg" + (i+1));
+        if (!isMobileDevice()) {
+            img.onclick = function(){
+                var modalImg = document.getElementById("img01");
+                modal.style.display = "block";
+                modalImg.src = this.src;
+            }
+        }
+    }
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+        modal.style.display = "none";
+    }
+    
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+    window.ontouchstart = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+            sleep(1000);
+        }
+    }
+</script>
