@@ -24,7 +24,33 @@
 
 <div style="display: flex; justify-content: center;">
 <table>
-    <!-- <tr><td><br></td><td><br></td><td><br></td></tr> -->
+    <tr>
+        <td>
+            <img class="images" id="myImg1" src="assets/images/battleship.png"/>
+        </td>
+        <td>
+            <strong><a href="assets/subpages/battleship.html">Battleship</a></strong>
+        </td>
+        <td>
+            <table>
+                <tr>
+                    <td>
+                        <i>Developed a Battleship game in Java as part of a team, using spring framework and MVC architcture.</i>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>Skilll Showcase:</b> Proficiency in server-side programming and group collaboration.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="icon">{{site.github_icon}} Github: <a href="https://github.com/elordeiro/Battleship">Battleship</a></div>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
     <tr>
         <td>
             <img class="images" id="myImg1" src="assets/images/dsa.png"/>
@@ -46,7 +72,7 @@
                 </tr>
                 <tr>
                     <td>
-                        {{site.github_icon }}Github: <a href="https://github.com/elordeiro/DataStructures_C">DataStructures_C</a>
+                        <div class="icon">{{site.github_icon}} Github: <a href="https://github.com/elordeiro/DataStructures_C">DataStructures_C</a></div>
                     </td>
                 </tr>
             </table>
@@ -58,7 +84,7 @@
             <img class="images" id="myImg2" src="assets/images/comp-decomp.png"/>
         </td>
         <td>
-            <strong>Compression and Decompression Program</strong>
+            <strong><a href="assets/subpages/huffman.html">Compression and Decompression Program</a></strong>
         </td>
         <td>
             <table>
@@ -74,7 +100,7 @@
                 </tr>
                 <tr>
                     <td>
-                        Github: <a href="https://github.com/elordeiro/Homework/tree/main/CS444/proj1">Compression and Decompression Program</a>
+                        <div class="icon">{{site.github_icon}} Github: <a href="https://github.com/elordeiro/HuffmanCompression">Compression and Decompression Program</a></div>
                     </td>
                 </tr>
             </table>
@@ -102,7 +128,7 @@
                 </tr>
                 <tr>
                     <td>
-                        Github: <a href="https://github.com/elordeiro/tictactoe">Unbeatable Tic Tac Toe (GUI & CLI) with Minimax Algorithm</a>
+                        <div class="icon">{{site.github_icon}}Github: <a href="https://github.com/elordeiro/tictactoe">Unbeatable Tic Tac Toe (GUI & CLI) with Minimax Algorithm</a></div>
                     </td>
                 </tr>
             </table>
@@ -130,7 +156,7 @@
                 </tr>
                 <tr>
                     <td>
-                        Github: <a href="https://github.com/elordeiro/uno">Uno Game Simulator</a>
+                        <div class="icon">{{site.github_icon}}Github: <a href="https://github.com/elordeiro/uno">Uno Game Simulator</a></div>
                     </td>
                 </tr>
             </table>
@@ -158,7 +184,7 @@
                 </tr>
                 <tr>
                     <td>
-                        Github: <a href="https://github.com/elordeiro/UMassCSPreReqChart">CS Program Classes Prerequisites Website</a>
+                        <div class="icon">{{site.github_icon}}Github: <a href="https://github.com/elordeiro/UMassCSPreReqChart">CS Program Classes Prerequisites Website</a></div>
                     </td>
                 </tr>
             </table>
@@ -169,8 +195,8 @@
 
 <script>
     document.getElementsByClassName("credits right")[0].innerText = "Hosted on GitHub Pages";
-    // const fork = document.getElementsByClassName("fork")[0];
-    // fork.parentNode.removeChild(fork);
+    const fork = document.getElementsByClassName("fork")[0];
+    fork.innerHTML = "<a href=\"assets/subpages/about.html\">About Me</a>";
 
 
     function isMobileDevice() {

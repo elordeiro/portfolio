@@ -7,6 +7,12 @@
 section {
     max-width: 100%;
 }
+a {
+    margin-left: 2px;
+}
+.icon {
+    display: flex;
+}
 
 .images {
     width: 600px;
@@ -53,6 +59,8 @@ section {
     cursor: pointer;
 }
 
+/* Media Queries */
+// Big screens
 @media screen and (min-width: 1200px) {
     table {
         width: 100%;
@@ -62,6 +70,7 @@ section {
     }
 }
 
+// Small screens
 @media screen and (max-width: 1199px) {
     .wrapper {
         max-width: 100%;
@@ -70,7 +79,9 @@ section {
     .images {
         width: 100%;
     }
-
+    .icon {
+        justify-content: center;
+    }
     table, tbody, tr, td {
         text-align: center;
         display: block;
