@@ -1,8 +1,19 @@
-<div style="text-align: center;"><br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qMgIxciIHcw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div><br><br>
+<head>
+      <style>
+            @media screen and (max-width: 1199px) {
+                  table, tbody, tr, td {
+                        text-align: center;
+                        width: auto;
+                  }
+            }
+      </style>
+</head>
 
-# Milestone 1: Battleship Specificaion
+<div style="text-align: center;"><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kxVwudFWGZA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div><br><br>  
+
+# Milestone 1: Battleship Specification
 
 ### Team
 - Nathan Brilmayer

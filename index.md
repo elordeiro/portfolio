@@ -12,6 +12,15 @@
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
+    <style>
+        @media screen and (max-width: 1199px) {
+            table, tbody, tr, td {
+                text-align: center;
+                display: block;
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 
 <div id="myModal" class="modal">
@@ -24,7 +33,7 @@
 
 <div style="display: flex; justify-content: center;">
 <table>
-    <tr>
+    <tr class="bottom-row">
         <td>
             <img class="images" id="myImg1" src="assets/images/battleship.png"/>
         </td>
@@ -40,7 +49,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <b>Skilll Showcase:</b> Proficiency in server-side programming and group collaboration.
+                        <b>Skilll Showcase:</b> Server-side programming, group collaboration and web development.
                     </td>
                 </tr>
                 <tr>
@@ -51,7 +60,7 @@
             </table>
         </td>
     </tr>
-    <tr>
+    <tr class="bottom-row">
         <td>
             <img class="images" id="myImg1" src="assets/images/dsa.png"/>
         </td>
@@ -78,8 +87,7 @@
             </table>
         </td>
     </tr>
-    <!-- <tr><td><br><br></td><td><br><br></td><td><br><br></td></tr> -->
-    <tr>
+    <tr class="bottom-row">
         <td>
             <img class="images" id="myImg2" src="assets/images/comp-decomp.png"/>
         </td>
@@ -106,8 +114,7 @@
             </table>
         </td>
     </tr>
-    <!-- <tr><td><br><br></td><td><br><br></td><td><br><br></td></tr> -->
-    <tr>
+    <tr class="bottom-row">
         <td>
             <img class="images" id="myImg3" src="assets/images/tic-tac-toe.png"/>
         </td>
@@ -123,7 +130,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <b>Skilll Showcase:</b> Proficiency in UI design and implementation.
+                        <b>Skilll Showcase:</b> UI design and implementation.
                     </td>
                 </tr>
                 <tr>
@@ -134,8 +141,7 @@
             </table>
         </td>
     </tr>
-    <!-- <tr><td><br><br></td><td><br><br></td><td><br><br></td></tr> -->
-    <tr>
+    <tr class="bottom-row">
         <td>
             <img class="images" id="myImg4" src="assets/images/uno.png"/>
         </td>
@@ -151,7 +157,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <b>Skilll Showcase:</b> Proficiency in object-oriented programming.
+                        <b>Skilll Showcase:</b> Object-oriented programming.
                     </td>
                 </tr>
                 <tr>
@@ -162,8 +168,7 @@
             </table>
         </td>
     </tr>
-    <!-- <tr><td><br><br></td><td><br><br></td><td><br><br></td></tr> -->
-    <tr>
+    <tr class="bottom-row">
         <td>
             <img class="images" id="myImg5" src="assets/images/cs.png"/>
         </td>
@@ -179,7 +184,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <b>Skilll Showcase:</b> Proficiency in web development.
+                        <b>Skilll Showcase:</b> Web development.
                     </td>
                 </tr>
                 <tr>
@@ -194,11 +199,6 @@
 </div>
 
 <script>
-    document.getElementsByClassName("credits right")[0].innerText = "Hosted on GitHub Pages";
-    const fork = document.getElementsByClassName("fork")[0];
-    fork.innerHTML = "<a href=\"assets/subpages/about.html\">About Me</a>";
-
-
     function isMobileDevice() {
         return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
     };
