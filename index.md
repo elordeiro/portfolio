@@ -23,11 +23,11 @@
     </style>
 </head>
 
-<div id="myModal" class="modal">
+<!-- <div id="myModal" class="modal">
   <span class="close">&times;</span>
   <img class="modal-content" id="img01">
   <div id="caption"></div>
-</div>
+</div> -->
 
 <h2 style="text-align: center;">These are some of the projects that I have worked on in the past.</h2><br><br>
 
@@ -35,7 +35,9 @@
 <table>
     <tr class="bottom-row">
         <td>
+            <a href="assets/subpages/battleship.html">
             <img class="images" id="myImg1" src="assets/images/battleship.png"/>
+            </a>
         </td>
         <td>
             <strong><a href="assets/subpages/battleship.html">Battleship</a></strong>
@@ -62,7 +64,9 @@
     </tr>
     <tr class="bottom-row">
         <td>
+            <a href="assets/subpages/dsa.html">
             <img class="images" id="myImg1" src="assets/images/dsa.png"/>
+            </a>
         </td>
         <td>
             <strong><a href="assets/subpages/dsa.html">Data Structures and Algorithms</a></strong>
@@ -89,7 +93,9 @@
     </tr>
     <tr class="bottom-row">
         <td>
+            <a href="assets/subpages/huffman.html">
             <img class="images" id="myImg2" src="assets/images/comp-decomp.png"/>
+            </a>
         </td>
         <td>
             <strong><a href="assets/subpages/huffman.html">Compression and Decompression Program</a></strong>
@@ -116,7 +122,9 @@
     </tr>
     <tr class="bottom-row">
         <td>
+            <a href="assets/subpages/ttt.html">
             <img class="images" id="myImg3" src="assets/images/tic-tac-toe.png"/>
+            </a>
         </td>
         <td>
             <strong><a href="assets/subpages/ttt.html">Tic Tac Toe with Minimax Algorithm</a></strong>
@@ -143,7 +151,9 @@
     </tr>
     <tr class="bottom-row">
         <td>
+            <a href="assets/subpages/uno.html">
             <img class="images" id="myImg4" src="assets/images/uno.png"/>
+            </a>
         </td>
         <td>
             <strong><a href="assets/subpages/uno.html">Uno Game Simulator</a></strong>
@@ -170,7 +180,9 @@
     </tr>
     <tr class="bottom-row">
         <td>
+            <a href="https://umbcs.github.io/UMassCSPreReqChart/CSChart_unified.html">
             <img class="images" id="myImg5" src="assets/images/cs.png"/>
+            </a>
         </td>
         <td>
             <strong><a href="https://umbcs.github.io/UMassCSPreReqChart/CSChart_unified.html">CS Program Classes Prerequisites Website</a></strong>
@@ -198,6 +210,7 @@
 </table>
 </div>
 
+<!--
 <script>
     function isMobileDevice() {
         return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
@@ -235,3 +248,4 @@
         }
     }
 </script>
+-->
