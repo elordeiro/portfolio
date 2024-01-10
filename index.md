@@ -32,12 +32,12 @@
 <table>
     <tr class="bottom-row">
         <td>
-            <a href="assets/subpages/HealthFitness/index.html">
-            <img class="images" id="myImg1" src="assets/images/battleship.png"/>
+            <a href="https://elordeiro.github.io/HealthFitnessCalculators/index.html">
+            <img class="images" id="myImg1" src="assets/images/healthandfitness.png"/>
             </a>
         </td>
         <td>
-            <strong><a href="assets/subpages/HealthFitness/index.html">Healh and Fitness Calculators</a></strong>
+            <strong><a href="https://elordeiro.github.io/HealthFitnessCalculators/index.html">Healh and Fitness Calculators</a></strong>
         </td>
         <td>
             <table>
