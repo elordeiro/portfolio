@@ -9,9 +9,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Expires" content="0">
     <style>
         @media screen and (max-width: 1199px) {
             table, tbody, tr, td {
@@ -33,6 +30,35 @@
 
 <div style="display: flex; justify-content: center;">
 <table>
+    <tr class="bottom-row">
+        <td>
+            <a href="assets/subpages/HealthFitness/index.html">
+            <img class="images" id="myImg1" src="assets/images/battleship.png"/>
+            </a>
+        </td>
+        <td>
+            <strong><a href="assets/subpages/HealthFitness/index.html">Healh and Fitness Calculators</a></strong>
+        </td>
+        <td>
+            <table>
+                <tr>
+                    <td>
+                        <i>Designed and implemented a website with a collection of various types of calculators related to health and fitness.</i>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>Skilll Showcase:</b> CSS, HTML, JavaScript, and web development.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="icon">{{site.github_icon}} Github: <a href="https://github.com/elordeiro/HealthFitnessCalculators">Health and Fitness Calculators</a></div>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
     <tr class="bottom-row">
         <td>
             <a href="assets/subpages/battleship.html">
