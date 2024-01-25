@@ -4,8 +4,8 @@
 
 # layout: page
 # title : Welcome!
-
 ---
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,6 +30,35 @@
 
 <div style="display: flex; justify-content: center;">
 <table>
+    <tr class="bottom-row">
+        <td>
+            <a href="https://elordeiro-mortgage-calculator.vercel.app">
+            <img class="images" id="myImg1" src="assets/images/mortgage-calculator.png"/>
+            </a>
+        </td>
+        <td>
+            <strong><a href="https://elordeiro-mortgage-calculator.vercel.app">Mortgage Calculator</a></strong>
+        </td>
+        <td>
+            <table>
+                <tr>
+                    <td>
+                        <i>Reverse Engineered and Built a React app using tailwind that dynamically calculates and breaks down loan details for a mortgage.</i>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>Skilll Showcase:</b> React, Tailwind, TypeScript, Vercel, CD/CI.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="icon">{{site.github_icon}} Github: <a href="https://github.com/elordeiro/mortgage-calculator">Mortgage Calculator</a></div>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
     <tr class="bottom-row">
         <td>
             <a href="https://elordeiro.github.io/health-fitness-calculators/index.html">
@@ -258,10 +287,10 @@
     // Get the <span> element that closes the modal
     var span = document.getElementsByClassName("close")[0];
     // When the user clicks on <span> (x), close the modal
-    span.onclick = function() { 
+    span.onclick = function() {
         modal.style.display = "none";
     }
-    
+
     window.onclick = function(event) {
         if (event.target == modal) {
             modal.style.display = "none";
